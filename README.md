@@ -5,6 +5,7 @@ Wat voor opdracht is dit?
 -------------------------
 
 Dit was een opdracht waar je minimaal 4 cd albums/covers op de pagina moest hebben staan.
+Ook moest er een animatie in zitten die de info van het albums/covers laat zien.
 
 Albums/Covers die ik heb?
 -----------------
