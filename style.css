@@ -1,0 +1,101 @@
+body, html {
+    font-family: sans-serif;
+    font-size: .84em
+}
+
+.mar-2 {
+    margin-left: 10px;
+}
+
+.album {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    margin: 1em;
+    padding: 0;
+}
+
+.width-foto {
+    width: 400px;
+}
+
+.album article {
+    position: relative;
+    margin-top: 0;
+    background-color: rgba(255,255,255,0.8);
+    height: 400px;
+    padding: 1em;
+/*    Dit is te makkelijk    */
+/*    transition: margin-top 1s;*/
+    animation: StuitBeneden 1.25s forwards;
+}
+
+@keyframes StuitBoven {
+    0% {
+        margin-top: 0;
+    }
+    25% {
+        margin-top: -415px;
+    }
+    38% {
+        margin-top: -355.5px;
+    }
+    50% {
+        margin-top: -415px;
+    }
+    63% {
+        margin-top: -377.5px;
+    }
+    75% {
+        margin-top: -415px;
+    }
+    88% {
+        margin-top: -399.5px;
+    }
+    100% {
+        margin-top: -415px;
+    }
+}
+
+@keyframes StuitBeneden {
+    0% {
+        margin-top: -415px;
+    }
+    25% {
+        margin-top: 0px;
+    }
+    38% {
+        margin-top: -199.5px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    63% {
+        margin-top: -177.5px;
+    }
+    75% {
+        margin-top: 0px;
+    }
+    88% {
+        margin-top: -155.5px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.album:hover article {
+    animation: StuitBoven 1.25s forwards;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+
+footer {
+    clear: left;
+}
